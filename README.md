@@ -76,4 +76,3 @@ Khi kết thúc bài tập nhóm:
 4. Chọn Restore (Khôi phục).
 5. Kiểm tra lại các tệp bên trong thư mục.
 
-Nếu không tìm thấy, kiểm tra thùng rác cấp hai của SharePoint hoặc nhờ quản trị viên hỗ trợ.
