@@ -1,0 +1,73 @@
+BÀI TẬP SESSION 03 – LUYỆN TẬP TỔNG HỢP
+
+PHẦN 1. PHÂN TÍCH
+
+Sai lầm về vị trí lưu trữ
+
+Nam đang lưu bài tập tại:
+
+C:\Windows\System32\Bai Tap Cua Nam\Session 01\bai tap 1.py
+
+Đây là vị trí không phù hợp vì System32 chứa các file hệ thống quan trọng của Windows. Không nên tạo và lưu bài tập cá nhân trong thư mục này vì có thể gây nhầm lẫn hoặc ảnh hưởng đến hệ thống.
+
+Nam nên tạo một thư mục riêng trên ổ D: để lưu bài tập.
+
+Sai lầm về cách đặt tên
+
+Tên “Bai Tap Cua Nam”, “Session 01” và “bai tap 1.py” có khoảng trắng và chưa thống nhất cách đặt tên.
+
+Nên sử dụng kebab-case, viết chữ thường và dùng dấu gạch ngang để ngăn cách các từ.
+
+Ví dụ:
+
+bai-tap-cua-nam
+session-01
+bai-tap-01.py
+
+Hiểu lầm về tốc độ mạng
+
+Nam sử dụng gói mạng 100 Mbps nhưng tốc độ tải khoảng 12.5 MB/s là bình thường, không phải nhà mạng lừa đảo.
+
+Vì:
+
+1 Byte = 8 bit
+
+100 Mbps ÷ 8 = 12.5 MB/s
+
+Do đó, 100 Mbps tương đương khoảng 12.5 MB/s khi đổi sang MB/s.
+
+Tại sao SSD 256 GB chỉ hiển thị khoảng 238 GB?
+
+Nhà sản xuất tính dung lượng theo hệ thập phân:
+
+256 GB = 256.000.000.000 Byte
+
+Trong khi Windows quy đổi dung lượng theo hệ 1024:
+
+256.000.000.000 ÷ 1.073.741.824 ≈ 238.47
+
+Vì vậy SSD 256 GB hiển thị khoảng 238.47 GB trên Windows là bình thường, không phải ổ SSD bị mất dung lượng.
+
+PHẦN 2. HOÀN THIỆN
+
+Cây thư mục học tập trên ổ D:
+
+D:
+
+└── it108-k26
+├── session-01
+│   └── bai-tap-01.py
+├── session-02
+│   └── bai-tap-02.py
+└── session-03
+└── bai-tap-03.py
+
+Quy tắc đặt tên áp dụng 4 trụ cột:
+
+Dễ đọc: Tên phải ngắn gọn và dễ hiểu.
+
+Thống nhất: Các file và thư mục dùng cùng một quy tắc đặt tên.
+
+Không dấu, không khoảng trắng: Tránh tiếng Việt có dấu, khoảng trắng và ký tự đặc biệt.
+
+Kebab-case: Viết chữ thường và dùng dấu “-” để ngăn cách các từ.
